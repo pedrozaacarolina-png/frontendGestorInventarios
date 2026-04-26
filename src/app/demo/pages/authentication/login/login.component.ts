@@ -37,4 +37,8 @@ export class LoginComponent {
     console.log('login user logged in with:', credentials);
     this.cd.detectChanges();
   }
+
+  loginWithGoogle() {
+    alert('HOLA MUNDO');
+  }
 }
